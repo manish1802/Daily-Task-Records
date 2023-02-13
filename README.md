@@ -1,2 +1,2 @@
-# Daily-Task-Records!
-[Uploading WhatsApp Image 2023-02-13 at 11.42.31 PM.jpeg…]()
+# Daily-Task-Records...
+![Image](https://user-images.githubusercontent.com/121476455/218541971-e4b8b91d-8ac5-40a3-afb5-3367cdebe4bf.jpeg)
