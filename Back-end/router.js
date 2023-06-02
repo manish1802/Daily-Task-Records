@@ -27,9 +27,9 @@ router.get("/notes/:id" , async(req,res) =>{
              /// POST ///
 
  router.post("/notes" , async (req,res) => {
-    const q = "INSERT INTO notes (`id`, `title`, `description`) Values(default,?,?)"
+    const q = "INSERT INTO notes (`id`, `title`, `description`,`img`) Values(default,?,?,?)"
     try {
-        const [data] = await db.query(q ,[req.body.title,req.body.description])
+        const [data] = await db.query(q ,[req.body.title,req.body.description,req.body.img])
        
         if(data) return res.json(data)
     } catch (error) {

@@ -4,19 +4,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(222, 223, 223);
-}
-.navbar{
-    background-color: rgb(28, 31, 31);
-    width: 98%;
-    height: auto;
-    padding: 1%;
-}
-.itams{
-    display: flex;
-    gap: 10px;
-    font-size: 30px;
-    color:  white;
+    background-color: #ffffff;
 }
 .btn{
     width: 100%;
@@ -39,25 +27,39 @@ body{
 .post-btn:hover{
      background-color: rgb(61, 61, 61);
 }
-.Card-container{
+.postmain-container{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.Card-containers{
+    width: 90%;
     display: flex; 
     margin-top: 1%;
-    justify-content: center;
+    margin-left: 4%;
+
+    justify-content: flex-start;
     flex-wrap: wrap;
     /* align-items: center; */
-    gap: 15px;
+    gap: 25px;
+}
+.postimage{
+    width: 100%;
+    /* height: 50%; */
+    object-fit: cover;
 }
 .content{
-    width: 25%;
+    width: 15%;
+    height: 10%;
     display: flex;
     flex-direction: column;
-     margin-top: 3%;
+     margin-top: 2%;
      /* text-align: center; */
     border-radius: 20px;
-    background: #f8f7f7;
+    background: #ffffff;
     padding: 5px 10px  30px 20px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   
 }
 .icon-container{
@@ -83,7 +85,7 @@ body{
 }
 .title-info{
    
-    overflow: auto;
+    /* overflow: auto; */
     font-size: 25px;
     font-weight: 600;
     margin-top: 4%;
@@ -92,21 +94,37 @@ body{
  }
  .description-info{
     font-size: 18px;
+    display: -webkit-box; /* Set the display type to -webkit-box for webkit-based browsers */
+    -webkit-line-clamp: 3; /* Set the number of lines to be displayed */
+    -webkit-box-orient: vertical; /* Set the vertical orientation for -webkit-box */
+    overflow: hidden; 
+    /* max-height: 4.5em; */
     font-weight: 600;
     margin-top: 5%;
     color: #6e6969;
  }
  
-  @media (max-width:1000px) {
-     .content .card{
+  @media (max-width:500px) {
+    .Card-container{
       background: #fff;
-      width: calc(50% - 20px);
+      width: 100%;
       margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .content{
+    width: 80%;
+
   }
   }
   @media (max-width:715px) {
    .content .card{
       width: 100%;
+  }
+  .post-btn{
+    width: 80%;
+
   }
   }
  

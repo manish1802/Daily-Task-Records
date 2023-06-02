@@ -1,0 +1,116 @@
+.login-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .singupbox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    gap: 5px;
+    background: rgba(247, 246, 250, 0.42);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+  }
+  
+  .singup-inputs {
+    width: 300px;
+    border-radius: 10px;
+    height:auto;
+    border: 0px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .singup-inputs:focus{
+    background-color:rgb(34, 34, 34);
+    color: white;
+    outline: none;
+  }
+  
+  .singup-btn {
+    /* margin-top: 10px; */
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: cornflowerblue;
+  }
+
+                 /* //////// Login Css ////// */
+  .login-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .loginbox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    gap: 25px;
+    background: rgba(37, 37, 37, 0.42);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+  }
+  
+  .login-inputs {
+    width: 300px;
+    border-radius: 10px;
+    height: 35px;
+    border: 0px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .login-inputs:focus{
+    background-color:rgb(34, 34, 34);
+    color: white;
+    outline: none;
+  }
+  
+  .login-btn {
+    /* margin-top: 10px; */
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: cornflowerblue;
+  }
+  
+  .create-btn {
+    background-color: rgb(81, 218, 81);
+    border: 0px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+  }

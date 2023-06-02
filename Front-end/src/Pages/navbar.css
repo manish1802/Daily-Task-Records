@@ -1,0 +1,40 @@
+.navbar{
+    background-color: rgb(28, 31, 31);
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    padding: 1%;
+}
+.itams{
+    display: flex;
+    gap: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:  white;
+}
+.navbar-btn{
+    margin-right: 2%;
+}
+.itam{
+    font-size: 25px;   
+    font-family: 'Roboto', sans-serif;
+    color:  white;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.itam:hover{
+   color: rgb(189, 202, 207);
+}
+.loginbtn{
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+        border: none;
+    font-weight: 400;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(28, 31, 31);
+}
+.loginbtn:hover{
+    color: rgb(189, 202, 207);
+}
